@@ -27,3 +27,5 @@ score
 
 # do not include csv in Git
 csv
+
+echo_ssh_key.pem
