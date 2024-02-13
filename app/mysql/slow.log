@@ -1,0 +1,1754 @@
+/usr/sbin/mysqld, Version: 8.0.36 (MySQL Community Server - GPL). started with:
+Tcp port: 3306  Unix socket: /var/run/mysqld/mysqld.sock
+Time                 Id Command    Argument
+# Time: 2024-02-13T02:01:50.808745Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.264193  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+use app;
+SET timestamp=1707789709;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:01:53.729220Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.249099  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789712;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:01:55.375164Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.144363  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789714;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:01:57.011706Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.178209  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789715;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:01.234503Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.213212  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789720;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:03.252722Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.172555  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789722;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:03.255947Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.174282  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789722;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:03.359820Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 3.706651  Lock_time: 0.000011 Rows_sent: 0  Rows_examined: 6003288
+SET timestamp=1707789719;
+SELECT match_group_id FROM match_group_member WHERE user_id = '8897fd99-a7df-4ee6-82ac-46580996fc10';
+# Time: 2024-02-13T02:02:08.114354Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.317663  Lock_time: 0.000006 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789726;
+SELECT department_name FROM department_user_view WHERE user_id = '8897fd99-a7df-4ee6-82ac-46580996fc10' AND belong = true;
+# Time: 2024-02-13T02:02:12.348319Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.331148  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789731;
+SELECT department_name FROM department_user_view WHERE user_id = '00012d78-2b06-4785-bea2-a36a366d70d1' AND belong = true;
+# Time: 2024-02-13T02:02:12.550920Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.181612  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789731;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:16.240427Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.257669  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789734;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:16.846810Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.353933  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789735;
+SELECT department_name FROM department_user_view WHERE user_id = '001010a0-5ee7-4694-8b70-a01035a11eb9' AND belong = true;
+# Time: 2024-02-13T02:02:20.353088Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.404314  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789738;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:20.859385Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.369500  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789739;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:20.951330Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.460799  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789739;
+SELECT department_name FROM department_user_view WHERE user_id = '0042cd69-dbfc-43aa-bfa6-0b30b3ca94f8' AND belong = true;
+# Time: 2024-02-13T02:02:21.024906Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 2.091377  Lock_time: 0.000002 Rows_sent: 16  Rows_examined: 6003288
+SET timestamp=1707789738;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'test-user-id';
+# Time: 2024-02-13T02:02:23.546902Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.416285  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789742;
+SELECT department_name FROM department_user_view WHERE user_id = '00080d6b-1fd4-47f7-92da-1eb3211570e9' AND belong = true;
+# Time: 2024-02-13T02:02:23.820436Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.241319  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789742;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:23.820452Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.242047  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789742;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:24.868618Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.881165  Lock_time: 0.000001 Rows_sent: 18  Rows_examined: 6003288
+SET timestamp=1707789742;
+SELECT match_group_id FROM match_group_member WHERE user_id = '6fef3d5e-7a44-4e7b-9bf6-759af7a3bcf5';
+# Time: 2024-02-13T02:02:26.442772Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.161726  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789745;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:27.003226Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.338623  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789745;
+SELECT department_name FROM department_user_view WHERE user_id = '000702e0-0552-49e7-85ee-d649cac4f6a0' AND belong = true;
+# Time: 2024-02-13T02:02:27.254963Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.220563  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789746;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:29.761125Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.905827  Lock_time: 0.000002 Rows_sent: 26  Rows_examined: 6003288
+SET timestamp=1707789747;
+SELECT match_group_id FROM match_group_member WHERE user_id = '04f0728a-320a-433f-a814-e975206a45b4';
+# Time: 2024-02-13T02:02:29.813625Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.251505  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789748;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:29.813624Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.250468  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789748;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:29.814152Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.251108  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789748;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:29.814799Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.252806  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789748;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:30.051491Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.487472  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789748;
+SELECT department_name FROM department_user_view WHERE user_id = '0018d9fd-ad7a-49ad-925f-69978b3d695d' AND belong = true;
+# Time: 2024-02-13T02:02:30.956197Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.139230  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789749;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:33.149934Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.171241  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789751;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:33.651678Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.305494  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789752;
+SELECT department_name FROM department_user_view WHERE user_id = '0009ab79-2a67-4b1d-b5aa-39127ccce925' AND belong = true;
+# Time: 2024-02-13T02:02:34.311530Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.209927  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789753;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:36.877365Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.245284  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789755;
+SELECT department_name FROM department_user_view WHERE user_id = '002e7372-a95a-4536-b60f-0c72f1a04a7f' AND belong = true;
+# Time: 2024-02-13T02:02:39.789473Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.292781  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789758;
+SELECT department_name FROM department_user_view WHERE user_id = '005e4961-553d-4f6b-aba1-0240af3cf89d' AND belong = true;
+# Time: 2024-02-13T02:02:40.775238Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.198503  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789759;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:40.775238Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.199000  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789759;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:40.775238Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.198414  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789759;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:40.894616Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.307456  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789759;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:41.933719Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.136145  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789760;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:41.933728Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.141670  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789760;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:46.624168Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.230664  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789765;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:02:47.061881Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.311176  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789765;
+SELECT department_name FROM department_user_view WHERE user_id = '00235650-47f1-45d5-9129-e0ccf410b3b3' AND belong = true;
+# Time: 2024-02-13T02:02:48.640433Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.728968  Lock_time: 0.000001 Rows_sent: 20  Rows_examined: 6003288
+SET timestamp=1707789766;
+SELECT match_group_id FROM match_group_member WHERE user_id = '10351911-4590-4282-8603-9ea30cf75086';
+# Time: 2024-02-13T02:02:52.928625Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.377640  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789771;
+SELECT department_name FROM department_user_view WHERE user_id = '000ea354-6412-4f35-a779-24410ab0197c' AND belong = true;
+# Time: 2024-02-13T02:02:53.291793Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.758287  Lock_time: 0.000001 Rows_sent: 19  Rows_examined: 6003288
+SET timestamp=1707789771;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'f8231bd8-2768-46c6-9e71-dea904a1ae0f';
+# Time: 2024-02-13T02:02:53.292081Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.755643  Lock_time: 0.000001 Rows_sent: 21  Rows_examined: 6003288
+SET timestamp=1707789771;
+SELECT match_group_id FROM match_group_member WHERE user_id = '09c451e0-03ab-408e-afc6-8a2ab554f5f4';
+# Time: 2024-02-13T02:03:00.672475Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.253935  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789779;
+SELECT department_name FROM department_user_view WHERE user_id = '000805ba-066c-4b98-895b-03bc946b712a' AND belong = true;
+# Time: 2024-02-13T02:03:10.650047Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.144460  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789789;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:03:10.650047Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.144605  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789789;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:03:12.850365Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.879500  Lock_time: 0.000001 Rows_sent: 21  Rows_examined: 6003288
+SET timestamp=1707789790;
+SELECT match_group_id FROM match_group_member WHERE user_id = '00675d8a-a675-489c-a632-49d91aa1db51';
+# Time: 2024-02-13T02:03:13.209935Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.875302  Lock_time: 0.000003 Rows_sent: 18  Rows_examined: 6003288
+SET timestamp=1707789791;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'c9ca8851-4d0c-4dc6-86ee-c22440440a76';
+# Time: 2024-02-13T02:03:13.603151Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.879962  Lock_time: 0.000002 Rows_sent: 19  Rows_examined: 6003288
+SET timestamp=1707789791;
+SELECT match_group_id FROM match_group_member WHERE user_id = '321bdb87-972c-4f38-a872-44d16a26b9be';
+# Time: 2024-02-13T02:03:35.362217Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.257170  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789814;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:03:35.702567Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.251985  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789814;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:03:36.060157Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.246095  Lock_time: 0.000005 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789814;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:03:37.670520Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 2.071135  Lock_time: 0.000004 Rows_sent: 18  Rows_examined: 6003288
+SET timestamp=1707789815;
+SELECT match_group_id FROM match_group_member WHERE user_id = '4c9115af-1380-46ed-a411-084dec8ccf91';
+# Time: 2024-02-13T02:03:38.370381Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 2.001230  Lock_time: 0.000001 Rows_sent: 17  Rows_examined: 6003288
+SET timestamp=1707789816;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'e35a9cff-5472-44d2-aa58-46e72da47ce6';
+# Time: 2024-02-13T02:03:38.370381Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.983525  Lock_time: 0.000002 Rows_sent: 16  Rows_examined: 6003288
+SET timestamp=1707789816;
+SELECT match_group_id FROM match_group_member WHERE user_id = '5f961b8f-53a1-4ab3-8ffc-9544e2650c79';
+# Time: 2024-02-13T02:03:38.370611Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.983449  Lock_time: 0.000001 Rows_sent: 20  Rows_examined: 6003288
+SET timestamp=1707789816;
+SELECT match_group_id FROM match_group_member WHERE user_id = '6f66143d-49a3-43b1-b0a1-6508f68fac5a';
+# Time: 2024-02-13T02:03:38.567012Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 2.197776  Lock_time: 0.000001 Rows_sent: 19  Rows_examined: 6003288
+SET timestamp=1707789816;
+SELECT match_group_id FROM match_group_member WHERE user_id = '6f3c7a24-993d-4a56-90b2-1a9d42211ab9';
+# Time: 2024-02-13T02:03:38.629873Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 2.129274  Lock_time: 0.000001 Rows_sent: 23  Rows_examined: 6003288
+SET timestamp=1707789816;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'df6bc04d-80ca-479f-89a3-553c6d93f51d';
+# Time: 2024-02-13T02:03:38.629873Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 2.032626  Lock_time: 0.000002 Rows_sent: 16  Rows_examined: 6003288
+SET timestamp=1707789816;
+SELECT match_group_id FROM match_group_member WHERE user_id = '36c585ce-9fc0-4eb0-aecb-b4f163467cc2';
+# Time: 2024-02-13T02:03:38.629873Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 2.035037  Lock_time: 0.000001 Rows_sent: 17  Rows_examined: 6003288
+SET timestamp=1707789816;
+SELECT match_group_id FROM match_group_member WHERE user_id = '08b030bc-e644-4a30-930c-242c71a1e19c';
+# Time: 2024-02-13T02:03:39.940356Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.247219  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789818;
+SELECT department_name FROM department_user_view WHERE user_id = 'test-user-id' AND belong = true;
+# Time: 2024-02-13T02:03:53.919880Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.258287  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789832;
+SELECT department_name FROM department_user_view WHERE user_id = '6fef3d5e-7a44-4e7b-9bf6-759af7a3bcf5' AND belong = true;
+# Time: 2024-02-13T02:03:57.248937Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.374143  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789835;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:03:58.128361Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 2.253315  Lock_time: 0.000001 Rows_sent: 22  Rows_examined: 6003288
+SET timestamp=1707789835;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'd465c97e-43e3-448e-92c8-b9c9d22cadb5';
+# Time: 2024-02-13T02:03:58.503230Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 2.238354  Lock_time: 0.000001 Rows_sent: 25  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'dbd9c8ae-6777-4daa-b8f5-65a7d40e7f1d';
+# Time: 2024-02-13T02:03:58.504749Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 2.241534  Lock_time: 0.000003 Rows_sent: 20  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = '440c6f39-d8c6-4863-be7a-63d0897b46a0';
+# Time: 2024-02-13T02:03:58.729299Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 2.040659  Lock_time: 0.000001 Rows_sent: 14  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = '3299dd9a-cea4-494d-a43d-fcafe440d959';
+# Time: 2024-02-13T02:03:58.729820Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 2.043920  Lock_time: 0.000001 Rows_sent: 5  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'dd684c5d-2c0e-417f-8d8c-54acdf19e2b9';
+# Time: 2024-02-13T02:03:58.729892Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 2.043663  Lock_time: 0.000001 Rows_sent: 25  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'd04ea4f3-9823-4b4b-9091-868cec233cfa';
+# Time: 2024-02-13T02:03:58.729820Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 2.043768  Lock_time: 0.000001 Rows_sent: 13  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'c54c5436-d1ea-4bf9-a88d-8b5d31c2d4f7';
+# Time: 2024-02-13T02:03:58.731837Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 2.055147  Lock_time: 0.000007 Rows_sent: 31  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = '13e36507-fa51-4194-833d-6ddcd2ff51b3';
+# Time: 2024-02-13T02:03:59.043600Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 2.354851  Lock_time: 0.000002 Rows_sent: 21  Rows_examined: 6003288
+SET timestamp=1707789836;
+SELECT match_group_id FROM match_group_member WHERE user_id = '5da1d5db-f0c9-4a5b-9257-ea54fe01a4b6';
+# Time: 2024-02-13T02:03:59.612014Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 2.362439  Lock_time: 0.000008 Rows_sent: 25  Rows_examined: 6003288
+SET timestamp=1707789837;
+SELECT match_group_id FROM match_group_member WHERE user_id = '4a3d9652-2e17-4559-b127-2671296f365e';
+# Time: 2024-02-13T02:04:00.491114Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.718922  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789838;
+SELECT department_name FROM department_user_view WHERE user_id = '0000cd32-5171-41e1-b065-0d0c86f53983' AND belong = true;
+# Time: 2024-02-13T02:04:00.491114Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.743694  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789838;
+SELECT department_name FROM department_user_view WHERE user_id = '04f0728a-320a-433f-a814-e975206a45b4' AND belong = true;
+# Time: 2024-02-13T02:04:00.507566Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 2.378595  Lock_time: 0.000003 Rows_sent: 27  Rows_examined: 6003288
+SET timestamp=1707789838;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'ac537e89-1347-4337-85f8-2d80b5e943f9';
+# Time: 2024-02-13T02:04:00.728345Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 2.221778  Lock_time: 0.000002 Rows_sent: 20  Rows_examined: 6003288
+SET timestamp=1707789838;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'eb16620a-23fd-4326-a1fe-6dd62ce6191a';
+# Time: 2024-02-13T02:04:00.728345Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 2.222462  Lock_time: 0.000001 Rows_sent: 27  Rows_examined: 6003288
+SET timestamp=1707789838;
+SELECT match_group_id FROM match_group_member WHERE user_id = 'fe60fd4c-11b1-467d-aace-808e7871827f';
+# Time: 2024-02-13T02:04:00.839748Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.682353  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789839;
+SELECT department_name FROM department_user_view WHERE user_id = '10351911-4590-4282-8603-9ea30cf75086' AND belong = true;
+# Time: 2024-02-13T02:04:00.945820Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 2.216043  Lock_time: 0.000003 Rows_sent: 21  Rows_examined: 6003288
+SET timestamp=1707789838;
+SELECT match_group_id FROM match_group_member WHERE user_id = '7bae93ef-a454-4916-ad78-0333bce878c5';
+# Time: 2024-02-13T02:04:00.945820Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 2.213698  Lock_time: 0.000003 Rows_sent: 22  Rows_examined: 6003288
+SET timestamp=1707789838;
+SELECT match_group_id FROM match_group_member WHERE user_id = '74685d21-e1ef-44d3-a61d-4d641b4bccfb';
+# Time: 2024-02-13T02:04:01.065856Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 2.332812  Lock_time: 0.000001 Rows_sent: 20  Rows_examined: 6003288
+SET timestamp=1707789838;
+SELECT match_group_id FROM match_group_member WHERE user_id = '6a7069da-56c3-4673-b6ca-1f7549057539';
+# Time: 2024-02-13T02:04:01.435435Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.796843  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789839;
+SELECT department_name FROM department_user_view WHERE user_id = '0012db5f-0987-40cf-a8f7-60581bb6eaef' AND belong = true;
+# Time: 2024-02-13T02:04:02.169744Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.656139  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789840;
+SELECT department_name FROM department_user_view WHERE user_id = 'f8231bd8-2768-46c6-9e71-dea904a1ae0f' AND belong = true;
+# Time: 2024-02-13T02:04:02.177950Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.644627  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789840;
+SELECT department_name FROM department_user_view WHERE user_id = '09c451e0-03ab-408e-afc6-8a2ab554f5f4' AND belong = true;
+# Time: 2024-02-13T02:04:02.417983Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.469862  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789840;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:02.455805Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.507350  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789840;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:02.492820Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.421598  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789841;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:02.514821Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.475005  Lock_time: 0.000004 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789841;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:02.525906Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.537065  Lock_time: 0.000004 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789840;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:02.586604Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.512835  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789841;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:02.839567Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 2.331893  Lock_time: 0.000002 Rows_sent: 23  Rows_examined: 6003288
+SET timestamp=1707789840;
+SELECT match_group_id FROM match_group_member WHERE user_id = '6d8919b8-e83c-46bc-9a2d-9fe430ad9447';
+# Time: 2024-02-13T02:04:02.959396Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.523472  Lock_time: 0.000003 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789841;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:03.756834Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.576871  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789842;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:03.756834Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.577178  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789842;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:04.003065Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.583300  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789842;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:04.005635Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.509071  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789842;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:04.005824Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.543501  Lock_time: 0.000002 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789842;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:04.005824Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.483295  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789842;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:04.289686Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.742398  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789842;
+SELECT department_name FROM department_user_view WHERE user_id = '00675d8a-a675-489c-a632-49d91aa1db51' AND belong = true;
+# Time: 2024-02-13T02:04:04.547969Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.818963  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789842;
+SELECT department_name FROM department_user_view WHERE user_id = 'c9ca8851-4d0c-4dc6-86ee-c22440440a76' AND belong = true;
+# Time: 2024-02-13T02:04:04.636572Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.768232  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789842;
+SELECT department_name FROM department_user_view WHERE user_id = '001cd7dc-5e48-401b-a2ba-b30bb0de3837' AND belong = true;
+# Time: 2024-02-13T02:04:04.636904Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.674270  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789842;
+SELECT department_name FROM department_user_view WHERE user_id = '001b8cf8-f884-4c95-9e03-e050dd4a3ca5' AND belong = true;
+# Time: 2024-02-13T02:04:05.528662Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.725902  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789843;
+SELECT department_name FROM department_user_view WHERE user_id = '00130ca5-a7af-477a-aed5-a45964330f2f' AND belong = true;
+# Time: 2024-02-13T02:04:05.528662Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.754252  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789843;
+SELECT department_name FROM department_user_view WHERE user_id = '00128162-db51-47f1-b0ed-f38c32728173' AND belong = true;
+# Time: 2024-02-13T02:04:05.807746Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.799346  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789844;
+SELECT department_name FROM department_user_view WHERE user_id = '0015a659-052b-4be4-9b20-9e91c274a964' AND belong = true;
+# Time: 2024-02-13T02:04:05.807746Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.801653  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789844;
+SELECT department_name FROM department_user_view WHERE user_id = '0026f16b-c2d2-4d0a-88aa-36f30a14b4ae' AND belong = true;
+# Time: 2024-02-13T02:04:06.012711Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.679448  Lock_time: 0.000001 Rows_sent: 30  Rows_examined: 3444677
+SET timestamp=1707789844;
+SELECT user_id FROM department_role_member WHERE role_id IN ('0cdddec7-6f5f-4a88-a854-7f24eaec7f70') AND belong = true;
+# Time: 2024-02-13T02:04:06.223164Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.873208  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789844;
+SELECT department_name FROM department_user_view WHERE user_id = '004e8722-355b-4098-bb0b-8e83a1fb7824' AND belong = true;
+# Time: 2024-02-13T02:04:06.590410Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.919692  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789844;
+SELECT department_name FROM department_user_view WHERE user_id = '003b8c92-c4b6-4632-bc78-cc649b8067f8' AND belong = true;
+# Time: 2024-02-13T02:04:06.910547Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.934447  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789844;
+SELECT department_name FROM department_user_view WHERE user_id = '00073383-07af-4082-9509-ab89096cdd4d' AND belong = true;
+# Time: 2024-02-13T02:04:07.040837Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.865600  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789845;
+SELECT department_name FROM department_user_view WHERE user_id = '0018d9fd-ad7a-49ad-925f-69978b3d695d' AND belong = true;
+# Time: 2024-02-13T02:04:07.465515Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.897723  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789845;
+SELECT department_name FROM department_user_view WHERE user_id = '00235650-47f1-45d5-9129-e0ccf410b3b3' AND belong = true;
+# Time: 2024-02-13T02:04:07.596910Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.904809  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789845;
+SELECT department_name FROM department_user_view WHERE user_id = '000ea354-6412-4f35-a779-24410ab0197c' AND belong = true;
+# Time: 2024-02-13T02:04:07.645172Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.773807  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789845;
+SELECT department_name FROM department_user_view WHERE user_id = '003d3401-4fdb-40ee-8f27-c92f5e622357' AND belong = true;
+# Time: 2024-02-13T02:04:07.651970Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.757492  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789845;
+SELECT department_name FROM department_user_view WHERE user_id = '001226e2-baca-479f-acf0-0ee534b82185' AND belong = true;
+# Time: 2024-02-13T02:04:08.398077Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.779080  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789846;
+SELECT department_name FROM department_user_view WHERE user_id = '0042af7d-bb7f-4e5c-b946-46ea98465ec5' AND belong = true;
+# Time: 2024-02-13T02:04:08.587576Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.720788  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789846;
+SELECT department_name FROM department_user_view WHERE user_id = '00077c90-bac5-4141-b7e1-6f0d2d4707a0' AND belong = true;
+# Time: 2024-02-13T02:04:08.738900Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.802067  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789846;
+SELECT department_name FROM department_user_view WHERE user_id = '0000da41-b00f-4794-81d3-cdb76ea14f71' AND belong = true;
+# Time: 2024-02-13T02:04:08.982890Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.816096  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789847;
+SELECT department_name FROM department_user_view WHERE user_id = '005ab73e-8f57-401d-9378-fa9e4e67b62a' AND belong = true;
+# Time: 2024-02-13T02:04:09.404190Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.784854  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789847;
+SELECT department_name FROM department_user_view WHERE user_id = '00105376-7323-4fb6-9bdc-6983f9ddb4cb' AND belong = true;
+# Time: 2024-02-13T02:04:09.456808Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.786091  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789847;
+SELECT department_name FROM department_user_view WHERE user_id = '00420876-1ef7-4b67-bb45-aad0a22e9354' AND belong = true;
+# Time: 2024-02-13T02:04:09.457140Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.838886  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789847;
+SELECT department_name FROM department_user_view WHERE user_id = '0008918f-d2ff-4c6f-b575-9e850caa8465' AND belong = true;
+# Time: 2024-02-13T02:04:09.592062Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.845945  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789847;
+SELECT department_name FROM department_user_view WHERE user_id = '00036596-c4b4-413e-b822-a55cbb773c6b' AND belong = true;
+# Time: 2024-02-13T02:04:10.562736Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.565017  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789848;
+SELECT department_name FROM department_user_view WHERE user_id = '000e8b3e-5234-4730-bedc-4e97553af6f4' AND belong = true;
+# Time: 2024-02-13T02:04:10.564603Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.615156  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789848;
+SELECT department_name FROM department_user_view WHERE user_id = '0000a72f-fb29-45a8-b2b9-bbf1ab0a4f25' AND belong = true;
+# Time: 2024-02-13T02:04:10.669314Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.583783  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789849;
+SELECT department_name FROM department_user_view WHERE user_id = '00201a64-7d12-4981-9edd-3f09220abc48' AND belong = true;
+# Time: 2024-02-13T02:04:10.670865Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.607150  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789849;
+SELECT department_name FROM department_user_view WHERE user_id = '0006596c-8d65-4310-b844-3872c5d2cea6' AND belong = true;
+# Time: 2024-02-13T02:04:10.951765Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.541983  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789849;
+SELECT department_name FROM department_user_view WHERE user_id = '005f3856-0621-49e1-bea2-cce1e8522325' AND belong = true;
+# Time: 2024-02-13T02:04:11.029525Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.570423  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789849;
+SELECT department_name FROM department_user_view WHERE user_id = '0021ce78-36c4-4b76-9b3c-a1acde458db3' AND belong = true;
+# Time: 2024-02-13T02:04:11.031389Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.572973  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789849;
+SELECT department_name FROM department_user_view WHERE user_id = '0001c09a-c538-45a1-8fc4-2081bd526777' AND belong = true;
+# Time: 2024-02-13T02:04:11.153748Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.559128  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789849;
+SELECT department_name FROM department_user_view WHERE user_id = '00059d56-5fa9-4e19-996c-42fd150ceeea' AND belong = true;
+# Time: 2024-02-13T02:04:11.998090Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.432483  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789850;
+SELECT department_name FROM department_user_view WHERE user_id = '001ef98c-c8cb-4d69-bc67-69aca3e48b0d' AND belong = true;
+# Time: 2024-02-13T02:04:12.006217Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.441856  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789850;
+SELECT department_name FROM department_user_view WHERE user_id = '001cb8d5-2c16-452e-bba4-f5999889231a' AND belong = true;
+# Time: 2024-02-13T02:04:12.118919Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.446536  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789850;
+SELECT department_name FROM department_user_view WHERE user_id = '00059d56-5fa9-4e19-996c-42fd150ceeea' AND belong = true;
+# Time: 2024-02-13T02:04:12.120787Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.448959  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789850;
+SELECT department_name FROM department_user_view WHERE user_id = '00158464-bde4-47fc-8ce8-060ec690acf6' AND belong = true;
+# Time: 2024-02-13T02:04:12.439384Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.485956  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789850;
+SELECT department_name FROM department_user_view WHERE user_id = '000170c4-2c0e-48cb-a6b1-422f3d64b410' AND belong = true;
+# Time: 2024-02-13T02:04:12.482165Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.451005  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789851;
+SELECT department_name FROM department_user_view WHERE user_id = '001016ce-fea6-479e-8992-476cea80c21f' AND belong = true;
+# Time: 2024-02-13T02:04:12.504679Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.472140  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789851;
+SELECT department_name FROM department_user_view WHERE user_id = '0013d2a2-83ef-4a7b-b062-a391470aab3f' AND belong = true;
+# Time: 2024-02-13T02:04:12.665102Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.509981  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789851;
+SELECT department_name FROM department_user_view WHERE user_id = '0004f51e-fd31-4156-854f-4cfa722afcd6' AND belong = true;
+# Time: 2024-02-13T02:04:13.471794Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.464517  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789852;
+SELECT department_name FROM department_user_view WHERE user_id = '00426260-4509-475d-bb35-a4c716b1b554' AND belong = true;
+# Time: 2024-02-13T02:04:13.480367Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.480757  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789851;
+SELECT department_name FROM department_user_view WHERE user_id = '00060869-b3a8-483c-9af2-23d5c7b4cff9' AND belong = true;
+# Time: 2024-02-13T02:04:13.568240Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.447732  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789852;
+SELECT department_name FROM department_user_view WHERE user_id = '00035421-30b2-45d6-96b6-2942abc09e1e' AND belong = true;
+# Time: 2024-02-13T02:04:13.571155Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.449209  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789852;
+SELECT department_name FROM department_user_view WHERE user_id = '00132baf-6e9e-4e18-8403-2c803d01c0d9' AND belong = true;
+# Time: 2024-02-13T02:04:13.907152Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.466025  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789852;
+SELECT department_name FROM department_user_view WHERE user_id = '002c1a75-4166-4124-ae7b-cb0f2921a1a0' AND belong = true;
+# Time: 2024-02-13T02:04:13.911393Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.404980  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789852;
+SELECT department_name FROM department_user_view WHERE user_id = '0028042c-95d2-4c4f-8e4b-ad48f8caff16' AND belong = true;
+# Time: 2024-02-13T02:04:13.911623Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.427323  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789852;
+SELECT department_name FROM department_user_view WHERE user_id = '00783754-975b-4cce-abf6-caed08695a54' AND belong = true;
+# Time: 2024-02-13T02:04:14.223056Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.556121  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789852;
+SELECT department_name FROM department_user_view WHERE user_id = '001cd7dc-5e48-401b-a2ba-b30bb0de3837' AND belong = true;
+# Time: 2024-02-13T02:04:14.890127Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.408563  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789853;
+SELECT department_name FROM department_user_view WHERE user_id = '002ddd23-ff8a-441f-88cf-ea12d1080b7d' AND belong = true;
+# Time: 2024-02-13T02:04:14.894070Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.420823  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789853;
+SELECT department_name FROM department_user_view WHERE user_id = '0006e2ed-d146-4415-bb50-6f8c60813549' AND belong = true;
+# Time: 2024-02-13T02:04:14.997227Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.424894  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789853;
+SELECT department_name FROM department_user_view WHERE user_id = '002331a0-803e-486f-85d2-19d4fc32320b' AND belong = true;
+# Time: 2024-02-13T02:04:14.997240Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.427603  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789853;
+SELECT department_name FROM department_user_view WHERE user_id = '001a3712-d1c8-403d-8692-5686264f57ef' AND belong = true;
+# Time: 2024-02-13T02:04:15.343808Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.431561  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789853;
+SELECT department_name FROM department_user_view WHERE user_id = '000204d8-4610-4c32-926a-a0b958ead08c' AND belong = true;
+# Time: 2024-02-13T02:04:15.343819Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.435120  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789853;
+SELECT department_name FROM department_user_view WHERE user_id = '0023a9ee-4916-4aba-8f93-a32741022f97' AND belong = true;
+# Time: 2024-02-13T02:04:15.345478Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.432709  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789853;
+SELECT department_name FROM department_user_view WHERE user_id = '0023174c-dd7d-46e2-90ef-e3975e9fcbda' AND belong = true;
+# Time: 2024-02-13T02:04:15.790219Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.565277  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789854;
+SELECT department_name FROM department_user_view WHERE user_id = '0024b2d8-de67-4752-a58f-07d827ccbb58' AND belong = true;
+# Time: 2024-02-13T02:04:16.356481Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.464510  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789854;
+SELECT department_name FROM department_user_view WHERE user_id = '00171989-a253-4496-a6ac-18cd5fd54621' AND belong = true;
+# Time: 2024-02-13T02:04:16.359735Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.464053  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789854;
+SELECT department_name FROM department_user_view WHERE user_id = '003d468f-20ce-4840-ad2e-9d9c685a220e' AND belong = true;
+# Time: 2024-02-13T02:04:16.427362Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.427958  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789854;
+SELECT department_name FROM department_user_view WHERE user_id = '001d8d04-cc96-4d0f-ab02-62201dbe7df1' AND belong = true;
+# Time: 2024-02-13T02:04:16.433641Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.434844  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789854;
+SELECT department_name FROM department_user_view WHERE user_id = '00171989-a253-4496-a6ac-18cd5fd54621' AND belong = true;
+# Time: 2024-02-13T02:04:16.710134Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.364810  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789855;
+SELECT department_name FROM department_user_view WHERE user_id = '00132baf-6e9e-4e18-8403-2c803d01c0d9' AND belong = true;
+# Time: 2024-02-13T02:04:16.714205Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.368355  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789855;
+SELECT department_name FROM department_user_view WHERE user_id = '00375b50-22ff-4a51-ae1a-59c5b6124900' AND belong = true;
+# Time: 2024-02-13T02:04:16.740618Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.393494  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789855;
+SELECT department_name FROM department_user_view WHERE user_id = '0038297f-2ca9-4c89-a84b-97d9cc7697ff' AND belong = true;
+# Time: 2024-02-13T02:04:17.245666Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.454136  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789855;
+SELECT department_name FROM department_user_view WHERE user_id = '000987f6-a2ef-44f7-b7b4-edd07cad5914' AND belong = true;
+# Time: 2024-02-13T02:04:17.792493Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.431615  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789856;
+SELECT department_name FROM department_user_view WHERE user_id = '002379bd-dfba-4652-a54b-e3320bbcdc29' AND belong = true;
+# Time: 2024-02-13T02:04:17.794895Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.435585  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789856;
+SELECT department_name FROM department_user_view WHERE user_id = '00006010-99f3-4ad6-bf7f-eaaa7aced55a' AND belong = true;
+# Time: 2024-02-13T02:04:17.854387Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.419609  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789856;
+SELECT department_name FROM department_user_view WHERE user_id = '00345d38-11db-4b2a-8736-da17781e22e1' AND belong = true;
+# Time: 2024-02-13T02:04:17.854394Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.425380  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789856;
+SELECT department_name FROM department_user_view WHERE user_id = '002ff6fd-0d29-4fae-a975-5006e0c2063f' AND belong = true;
+# Time: 2024-02-13T02:04:18.091650Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.376550  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789856;
+SELECT department_name FROM department_user_view WHERE user_id = '00104579-1198-4980-900f-927175e049f0' AND belong = true;
+# Time: 2024-02-13T02:04:18.092450Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.380581  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789856;
+SELECT department_name FROM department_user_view WHERE user_id = '001010a0-5ee7-4694-8b70-a01035a11eb9' AND belong = true;
+# Time: 2024-02-13T02:04:18.093688Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.351565  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789856;
+SELECT department_name FROM department_user_view WHERE user_id = '000ba984-af0c-468a-9793-cf6f065d5db3' AND belong = true;
+# Time: 2024-02-13T02:04:18.775733Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.528371  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789857;
+SELECT department_name FROM department_user_view WHERE user_id = '003d34db-782e-40a4-a3ab-a0ce1dc5b07b' AND belong = true;
+# Time: 2024-02-13T02:04:19.223336Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.429172  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789857;
+SELECT department_name FROM department_user_view WHERE user_id = '003c0209-b9e3-48e9-964c-cfd4321ae1ad' AND belong = true;
+# Time: 2024-02-13T02:04:19.225015Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.429231  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789857;
+SELECT department_name FROM department_user_view WHERE user_id = '000d0a9a-1961-45a6-98c8-20c4983a2ea7' AND belong = true;
+# Time: 2024-02-13T02:04:19.303913Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.448107  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789857;
+SELECT department_name FROM department_user_view WHERE user_id = '0003536e-3e91-43be-a748-475a9bcf8057' AND belong = true;
+# Time: 2024-02-13T02:04:19.311445Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.455220  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789857;
+SELECT department_name FROM department_user_view WHERE user_id = '00170fef-2be5-47ab-9aae-b7c09d74436b' AND belong = true;
+# Time: 2024-02-13T02:04:19.465813Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.370826  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789858;
+SELECT department_name FROM department_user_view WHERE user_id = '0016cccc-5ebb-4f88-977e-4a578ac298f7' AND belong = true;
+# Time: 2024-02-13T02:04:19.465813Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.371962  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789858;
+SELECT department_name FROM department_user_view WHERE user_id = '000db9a8-d45f-4013-ae13-6f47598a593b' AND belong = true;
+# Time: 2024-02-13T02:04:19.465825Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.372546  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789858;
+SELECT department_name FROM department_user_view WHERE user_id = '001010a0-5ee7-4694-8b70-a01035a11eb9' AND belong = true;
+# Time: 2024-02-13T02:04:20.262153Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.484584  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789858;
+SELECT department_name FROM department_user_view WHERE user_id = '002ddd23-ff8a-441f-88cf-ea12d1080b7d' AND belong = true;
+# Time: 2024-02-13T02:04:20.640879Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.414946  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789859;
+SELECT department_name FROM department_user_view WHERE user_id = '0001b162-53ab-4046-9437-012ab30d3306' AND belong = true;
+# Time: 2024-02-13T02:04:20.652389Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.427656  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789859;
+SELECT department_name FROM department_user_view WHERE user_id = '000a7ee9-e408-4935-99f4-5c059ecb95c2' AND belong = true;
+# Time: 2024-02-13T02:04:20.734552Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.429095  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789859;
+SELECT department_name FROM department_user_view WHERE user_id = '000a8583-c090-431a-b60e-ea672ec46d3b' AND belong = true;
+# Time: 2024-02-13T02:04:20.735135Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.422660  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789859;
+SELECT department_name FROM department_user_view WHERE user_id = '0013935a-f068-4e9c-ab65-928455be84d5' AND belong = true;
+# Time: 2024-02-13T02:04:20.864674Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.396500  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789859;
+SELECT department_name FROM department_user_view WHERE user_id = '0001c09a-c538-45a1-8fc4-2081bd526777' AND belong = true;
+# Time: 2024-02-13T02:04:20.905076Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.437419  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789859;
+SELECT department_name FROM department_user_view WHERE user_id = '002c1a75-4166-4124-ae7b-cb0f2921a1a0' AND belong = true;
+# Time: 2024-02-13T02:04:20.940870Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.471982  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789859;
+SELECT department_name FROM department_user_view WHERE user_id = '002ee1f4-7a54-414d-8092-7f70335c8fd7' AND belong = true;
+# Time: 2024-02-13T02:04:21.910892Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.647109  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '000d10f2-c27a-4d81-8231-8b28ebdbaa4a' AND belong = true;
+# Time: 2024-02-13T02:04:22.231421Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.577525  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '000e90ff-0bcb-4b8c-ad90-785ef865e07c' AND belong = true;
+# Time: 2024-02-13T02:04:22.233061Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.590076  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '000253b4-e80a-4b59-a9d8-ed5e910d6d8c' AND belong = true;
+# Time: 2024-02-13T02:04:22.353017Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.616090  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '0028042c-95d2-4c4f-8e4b-ad48f8caff16' AND belong = true;
+# Time: 2024-02-13T02:04:22.353206Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.616797  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '003a69bb-9aaa-484c-813a-097c97c2d335' AND belong = true;
+# Time: 2024-02-13T02:04:22.483127Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.540353  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '00040e44-fe39-4ee9-8d7e-976a94f19347' AND belong = true;
+# Time: 2024-02-13T02:04:22.483142Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.576503  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '0028aaa5-fa37-4643-8858-b497f6326f49' AND belong = true;
+# Time: 2024-02-13T02:04:22.491752Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.625302  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789860;
+SELECT department_name FROM department_user_view WHERE user_id = '0000da41-b00f-4794-81d3-cdb76ea14f71' AND belong = true;
+# Time: 2024-02-13T02:04:23.527226Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.613786  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789861;
+SELECT department_name FROM department_user_view WHERE user_id = '0000da41-b00f-4794-81d3-cdb76ea14f71' AND belong = true;
+# Time: 2024-02-13T02:04:23.720659Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.485181  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789862;
+SELECT department_name FROM department_user_view WHERE user_id = '00344aa7-864d-467b-99fb-c2d5af9cb0b8' AND belong = true;
+# Time: 2024-02-13T02:04:23.729530Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.495911  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789862;
+SELECT department_name FROM department_user_view WHERE user_id = '00284674-544d-42e2-a39f-ac48bc8837e8' AND belong = true;
+# Time: 2024-02-13T02:04:23.863238Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.508158  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789862;
+SELECT department_name FROM department_user_view WHERE user_id = '0008918f-d2ff-4c6f-b575-9e850caa8465' AND belong = true;
+# Time: 2024-02-13T02:04:23.864726Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.509052  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789862;
+SELECT department_name FROM department_user_view WHERE user_id = '000a04ce-c10e-4399-9281-58a0eb701238' AND belong = true;
+# Time: 2024-02-13T02:04:23.946046Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.452172  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789862;
+SELECT department_name FROM department_user_view WHERE user_id = '0023174c-dd7d-46e2-90ef-e3975e9fcbda' AND belong = true;
+# Time: 2024-02-13T02:04:23.948233Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.462705  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789862;
+SELECT department_name FROM department_user_view WHERE user_id = '0006596c-8d65-4310-b844-3872c5d2cea6' AND belong = true;
+# Time: 2024-02-13T02:04:23.948239Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.463287  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789862;
+SELECT department_name FROM department_user_view WHERE user_id = '000ba984-af0c-468a-9793-cf6f065d5db3' AND belong = true;
+# Time: 2024-02-13T02:04:25.213417Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.684347  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '002ff6fd-0d29-4fae-a975-5006e0c2063f' AND belong = true;
+# Time: 2024-02-13T02:04:25.350773Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.619937  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '0007f12b-b107-4507-ac98-f627a170378a' AND belong = true;
+# Time: 2024-02-13T02:04:25.353934Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.631577  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '000db9a8-d45f-4013-ae13-6f47598a593b' AND belong = true;
+# Time: 2024-02-13T02:04:25.417045Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.551276  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '00077c90-bac5-4141-b7e1-6f0d2d4707a0' AND belong = true;
+# Time: 2024-02-13T02:04:25.417045Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.466996  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '000c0937-2dab-409b-b739-6c1e592209b0' AND belong = true;
+# Time: 2024-02-13T02:04:25.417054Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.552361  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '0011c171-380d-4af3-92b0-a28fb82156c8' AND belong = true;
+# Time: 2024-02-13T02:04:25.417054Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.469211  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '000614b4-faae-4532-867a-898a686e9e4e' AND belong = true;
+# Time: 2024-02-13T02:04:25.443897Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.494764  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789863;
+SELECT department_name FROM department_user_view WHERE user_id = '000f3216-6c80-4964-af50-9727c8fde9b2' AND belong = true;
+# Time: 2024-02-13T02:04:26.757031Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.404898  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '000b131c-739c-49c1-aa7f-0f754a77b6ac' AND belong = true;
+# Time: 2024-02-13T02:04:26.758403Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.542935  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '000ea354-6412-4f35-a779-24410ab0197c' AND belong = true;
+# Time: 2024-02-13T02:04:26.812230Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.391173  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '00105376-7323-4fb6-9bdc-6983f9ddb4cb' AND belong = true;
+# Time: 2024-02-13T02:04:26.812230Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.392270  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '00073543-9ace-4e48-b49f-19e6bf65dbed' AND belong = true;
+# Time: 2024-02-13T02:04:26.812230Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.390332  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '000253b4-e80a-4b59-a9d8-ed5e910d6d8c' AND belong = true;
+# Time: 2024-02-13T02:04:26.813333Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.458408  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '0018d9fd-ad7a-49ad-925f-69978b3d695d' AND belong = true;
+# Time: 2024-02-13T02:04:26.853717Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.434384  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '007b1bbd-23dc-4f4a-9895-fefaf6c18ac4' AND belong = true;
+# Time: 2024-02-13T02:04:26.936832Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.491430  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789865;
+SELECT department_name FROM department_user_view WHERE user_id = '00210061-71fd-4be6-8e94-e65a2822b242' AND belong = true;
+# Time: 2024-02-13T02:04:28.145651Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.386227  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '0015125f-75be-4a8b-b36b-6d135fd4b623' AND belong = true;
+# Time: 2024-02-13T02:04:28.145651Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.330800  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '0006e2ed-d146-4415-bb50-6f8c60813549' AND belong = true;
+# Time: 2024-02-13T02:04:28.146892Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.332572  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '0021d21a-e5da-44db-87d7-a56a274527dc' AND belong = true;
+# Time: 2024-02-13T02:04:28.152124Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.336595  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '000bec66-ae34-4751-892f-fbae742aa3f5' AND belong = true;
+# Time: 2024-02-13T02:04:28.156969Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.343086  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '000250d4-67a0-4a70-a0f8-3c9944d2d708' AND belong = true;
+# Time: 2024-02-13T02:04:28.156969Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.398634  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '000204d8-4610-4c32-926a-a0b958ead08c' AND belong = true;
+# Time: 2024-02-13T02:04:28.350911Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.412340  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '0023e918-78fb-4e91-b5d8-5fccbabb07f4' AND belong = true;
+# Time: 2024-02-13T02:04:28.358232Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.502568  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789866;
+SELECT department_name FROM department_user_view WHERE user_id = '0028a8fa-04f0-448d-9553-e578708be35e' AND belong = true;
+# Time: 2024-02-13T02:04:29.434857Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.281867  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '0005d168-0615-47a3-b4ac-cbb733cc658e' AND belong = true;
+# Time: 2024-02-13T02:04:29.434857Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.287204  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '00222bc3-467f-4a6c-b2d4-b9fb29198e76' AND belong = true;
+# Time: 2024-02-13T02:04:29.435000Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.287894  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '003be216-5d5f-4087-bd05-d1ee95a8be69' AND belong = true;
+# Time: 2024-02-13T02:04:29.435490Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.276700  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '00105376-7323-4fb6-9bdc-6983f9ddb4cb' AND belong = true;
+# Time: 2024-02-13T02:04:29.435758Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.287108  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '00234ffe-8ecf-4f83-b9bc-a00eea85a151' AND belong = true;
+# Time: 2024-02-13T02:04:29.446183Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.288090  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '0023ce37-2a4e-4320-a182-4b2bc8bb15fe' AND belong = true;
+# Time: 2024-02-13T02:04:29.762517Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.403285  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '0033f410-2d66-4d5a-bc66-f89ed748be30' AND belong = true;
+# Time: 2024-02-13T02:04:29.762529Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.410071  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789868;
+SELECT department_name FROM department_user_view WHERE user_id = '0016cccc-5ebb-4f88-977e-4a578ac298f7' AND belong = true;
+# Time: 2024-02-13T02:04:30.718984Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.279709  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '0023f032-bea2-432e-9369-9479249cd818' AND belong = true;
+# Time: 2024-02-13T02:04:30.718984Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.271344  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '0007f12b-b107-4507-ac98-f627a170378a' AND belong = true;
+# Time: 2024-02-13T02:04:30.718984Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.279138  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '002b6891-0874-41f3-978a-5b535688a497' AND belong = true;
+# Time: 2024-02-13T02:04:30.718984Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.280253  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '001d8d04-cc96-4d0f-ab02-62201dbe7df1' AND belong = true;
+# Time: 2024-02-13T02:04:30.718984Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.280887  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '00077c90-bac5-4141-b7e1-6f0d2d4707a0' AND belong = true;
+# Time: 2024-02-13T02:04:30.718996Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.282518  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '0016cccc-5ebb-4f88-977e-4a578ac298f7' AND belong = true;
+# Time: 2024-02-13T02:04:31.127525Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.363157  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '00060869-b3a8-483c-9af2-23d5c7b4cff9' AND belong = true;
+# Time: 2024-02-13T02:04:31.149444Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.385537  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789869;
+SELECT department_name FROM department_user_view WHERE user_id = '000253b4-e80a-4b59-a9d8-ed5e910d6d8c' AND belong = true;
+# Time: 2024-02-13T02:04:32.075053Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.351616  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789870;
+SELECT department_name FROM department_user_view WHERE user_id = '0004f51e-fd31-4156-854f-4cfa722afcd6' AND belong = true;
+# Time: 2024-02-13T02:04:32.075054Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.351965  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789870;
+SELECT department_name FROM department_user_view WHERE user_id = '001b291d-6261-4bb3-8929-92854778a62f' AND belong = true;
+# Time: 2024-02-13T02:04:32.075054Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.353277  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789870;
+SELECT department_name FROM department_user_view WHERE user_id = '0013012e-6570-4c46-bcb8-8d84d31d3d21' AND belong = true;
+# Time: 2024-02-13T02:04:32.077118Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.356001  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789870;
+SELECT department_name FROM department_user_view WHERE user_id = '0019f100-bae8-4c89-b99f-525588fb192f' AND belong = true;
+# Time: 2024-02-13T02:04:32.179249Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.456989  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789870;
+SELECT department_name FROM department_user_view WHERE user_id = '002e2fdd-8851-480d-ac16-9652ce1fa9e0' AND belong = true;
+# Time: 2024-02-13T02:04:32.232784Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.510067  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789870;
+SELECT department_name FROM department_user_view WHERE user_id = '0022a3c4-63ec-4f71-a0f0-2b1d2f9804ce' AND belong = true;
+# Time: 2024-02-13T02:04:32.568518Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.417812  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789871;
+SELECT department_name FROM department_user_view WHERE user_id = '000e8b3e-5234-4730-bedc-4e97553af6f4' AND belong = true;
+# Time: 2024-02-13T02:04:32.576373Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.447186  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789871;
+SELECT department_name FROM department_user_view WHERE user_id = '00012d78-2b06-4785-bea2-a36a366d70d1' AND belong = true;
+# Time: 2024-02-13T02:04:33.369744Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.292658  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789872;
+SELECT department_name FROM department_user_view WHERE user_id = '0000a72f-fb29-45a8-b2b9-bbf1ab0a4f25' AND belong = true;
+# Time: 2024-02-13T02:04:33.373230Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.296725  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789872;
+SELECT department_name FROM department_user_view WHERE user_id = '0000da41-b00f-4794-81d3-cdb76ea14f71' AND belong = true;
+# Time: 2024-02-13T02:04:33.373281Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.295615  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789872;
+SELECT department_name FROM department_user_view WHERE user_id = '00040e44-fe39-4ee9-8d7e-976a94f19347' AND belong = true;
+# Time: 2024-02-13T02:04:33.429587Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.350959  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789872;
+SELECT department_name FROM department_user_view WHERE user_id = '00105376-7323-4fb6-9bdc-6983f9ddb4cb' AND belong = true;
+# Time: 2024-02-13T02:04:33.594550Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.413608  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789872;
+SELECT department_name FROM department_user_view WHERE user_id = '00210061-71fd-4be6-8e94-e65a2822b242' AND belong = true;
+# Time: 2024-02-13T02:04:33.990275Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.412833  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789872;
+SELECT department_name FROM department_user_view WHERE user_id = '0027bf0b-54cb-4c42-8e3b-12ce7b478b5f' AND belong = true;
+# Time: 2024-02-13T02:04:33.997198Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.427213  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789872;
+SELECT department_name FROM department_user_view WHERE user_id = '00170fef-2be5-47ab-9aae-b7c09d74436b' AND belong = true;
+# Time: 2024-02-13T02:04:34.737899Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.363628  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789873;
+SELECT department_name FROM department_user_view WHERE user_id = '000987f6-a2ef-44f7-b7b4-edd07cad5914' AND belong = true;
+# Time: 2024-02-13T02:04:34.737899Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.363200  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789873;
+SELECT department_name FROM department_user_view WHERE user_id = '003fbbde-419f-4fa4-bb93-0e050b62300e' AND belong = true;
+# Time: 2024-02-13T02:04:34.737911Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.366276  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789873;
+SELECT department_name FROM department_user_view WHERE user_id = '001b92c9-db4e-43b9-9445-3b78e35468a0' AND belong = true;
+# Time: 2024-02-13T02:04:34.879379Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.448378  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789873;
+SELECT department_name FROM department_user_view WHERE user_id = '0001b162-53ab-4046-9437-012ab30d3306' AND belong = true;
+# Time: 2024-02-13T02:04:35.055669Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.459620  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789873;
+SELECT department_name FROM department_user_view WHERE user_id = '0022a3c4-63ec-4f71-a0f0-2b1d2f9804ce' AND belong = true;
+# Time: 2024-02-13T02:04:35.359177Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.367045  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789873;
+SELECT department_name FROM department_user_view WHERE user_id = '0034d9ac-91b9-4ed4-af2c-c94fa61f1d29' AND belong = true;
+# Time: 2024-02-13T02:04:35.360466Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.362301  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789873;
+SELECT department_name FROM department_user_view WHERE user_id = '000e8b3e-5234-4730-bedc-4e97553af6f4' AND belong = true;
+# Time: 2024-02-13T02:04:36.137873Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.397503  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789874;
+SELECT department_name FROM department_user_view WHERE user_id = '00201a64-7d12-4981-9edd-3f09220abc48' AND belong = true;
+# Time: 2024-02-13T02:04:36.139209Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.399733  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789874;
+SELECT department_name FROM department_user_view WHERE user_id = '000a04ce-c10e-4399-9281-58a0eb701238' AND belong = true;
+# Time: 2024-02-13T02:04:36.145040Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.405244  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789874;
+SELECT department_name FROM department_user_view WHERE user_id = '000987f6-a2ef-44f7-b7b4-edd07cad5914' AND belong = true;
+# Time: 2024-02-13T02:04:36.377377Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.496510  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789874;
+SELECT department_name FROM department_user_view WHERE user_id = '002deb5a-aa3b-4330-a263-40aa8a531acc' AND belong = true;
+# Time: 2024-02-13T02:04:36.576483Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.519389  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789875;
+SELECT department_name FROM department_user_view WHERE user_id = '0001b78c-8161-4d56-9053-49b2bc858a0f' AND belong = true;
+# Time: 2024-02-13T02:04:36.845014Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.483683  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789875;
+SELECT department_name FROM department_user_view WHERE user_id = '000db9a8-d45f-4013-ae13-6f47598a593b' AND belong = true;
+# Time: 2024-02-13T02:04:36.845024Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.484474  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789875;
+SELECT department_name FROM department_user_view WHERE user_id = '0013012e-6570-4c46-bcb8-8d84d31d3d21' AND belong = true;
+# Time: 2024-02-13T02:04:37.560874Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.413898  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789876;
+SELECT department_name FROM department_user_view WHERE user_id = '000e90ff-0bcb-4b8c-ad90-785ef865e07c' AND belong = true;
+# Time: 2024-02-13T02:04:37.560884Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.421148  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789876;
+SELECT department_name FROM department_user_view WHERE user_id = '0021ce78-36c4-4b76-9b3c-a1acde458db3' AND belong = true;
+# Time: 2024-02-13T02:04:37.561634Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.420836  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789876;
+SELECT department_name FROM department_user_view WHERE user_id = '000a7ee9-e408-4935-99f4-5c059ecb95c2' AND belong = true;
+# Time: 2024-02-13T02:04:37.886676Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.507130  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789876;
+SELECT department_name FROM department_user_view WHERE user_id = '00488953-1e9c-4319-9dff-7e5243970797' AND belong = true;
+# Time: 2024-02-13T02:04:38.068073Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.489624  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789876;
+SELECT department_name FROM department_user_view WHERE user_id = '0001ce76-95b8-466e-851a-fc9527143eba' AND belong = true;
+# Time: 2024-02-13T02:04:38.275662Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.428715  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789876;
+SELECT department_name FROM department_user_view WHERE user_id = '00035421-30b2-45d6-96b6-2942abc09e1e' AND belong = true;
+# Time: 2024-02-13T02:04:38.275678Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.429315  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789876;
+SELECT department_name FROM department_user_view WHERE user_id = '0008b0db-9ac5-4a1a-97ac-f87421da420b' AND belong = true;
+# Time: 2024-02-13T02:04:38.979681Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.416413  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789877;
+SELECT department_name FROM department_user_view WHERE user_id = '00265500-1b64-41cf-8067-619dc98b9260' AND belong = true;
+# Time: 2024-02-13T02:04:38.987067Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.424298  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789877;
+SELECT department_name FROM department_user_view WHERE user_id = '000d7694-43a6-419b-b185-c9eb270f67a7' AND belong = true;
+# Time: 2024-02-13T02:04:38.991677Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.429310  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789877;
+SELECT department_name FROM department_user_view WHERE user_id = '0012f23b-d417-485c-8dfe-17516a5ec841' AND belong = true;
+# Time: 2024-02-13T02:04:39.438082Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.549854  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789877;
+SELECT department_name FROM department_user_view WHERE user_id = '0010e5ee-355a-4443-8ae8-1d118eaca089' AND belong = true;
+# Time: 2024-02-13T02:04:39.596449Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.526484  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789878;
+SELECT department_name FROM department_user_view WHERE user_id = '001ba4cf-81ac-4987-b633-15aee18b38ce' AND belong = true;
+# Time: 2024-02-13T02:04:39.678044Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.400606  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789878;
+SELECT department_name FROM department_user_view WHERE user_id = '000614b4-faae-4532-867a-898a686e9e4e' AND belong = true;
+# Time: 2024-02-13T02:04:39.681364Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.403352  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789878;
+SELECT department_name FROM department_user_view WHERE user_id = '000a9e5c-a8c6-4ff6-93b2-e018245f71f3' AND belong = true;
+# Time: 2024-02-13T02:04:40.327241Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.334480  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789878;
+SELECT department_name FROM department_user_view WHERE user_id = '0008918f-d2ff-4c6f-b575-9e850caa8465' AND belong = true;
+# Time: 2024-02-13T02:04:40.329069Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.347829  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789878;
+SELECT department_name FROM department_user_view WHERE user_id = '001b92c9-db4e-43b9-9445-3b78e35468a0' AND belong = true;
+# Time: 2024-02-13T02:04:40.332342Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.343994  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789878;
+SELECT department_name FROM department_user_view WHERE user_id = '00130ca5-a7af-477a-aed5-a45964330f2f' AND belong = true;
+# Time: 2024-02-13T02:04:40.881060Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.441545  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789879;
+SELECT department_name FROM department_user_view WHERE user_id = '000a7ee9-e408-4935-99f4-5c059ecb95c2' AND belong = true;
+# Time: 2024-02-13T02:04:40.992061Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.394258  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789879;
+SELECT department_name FROM department_user_view WHERE user_id = '0004a090-a943-47a2-b9d4-d5bc62b46d00' AND belong = true;
+# Time: 2024-02-13T02:04:41.037582Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.355290  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789879;
+SELECT department_name FROM department_user_view WHERE user_id = '00073543-9ace-4e48-b49f-19e6bf65dbed' AND belong = true;
+# Time: 2024-02-13T02:04:41.048073Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.368564  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789879;
+SELECT department_name FROM department_user_view WHERE user_id = '0001ce76-95b8-466e-851a-fc9527143eba' AND belong = true;
+# Time: 2024-02-13T02:04:41.657841Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.324571  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789880;
+SELECT department_name FROM department_user_view WHERE user_id = '000b131c-739c-49c1-aa7f-0f754a77b6ac' AND belong = true;
+# Time: 2024-02-13T02:04:41.657841Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.328082  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789880;
+SELECT department_name FROM department_user_view WHERE user_id = '002379bd-dfba-4652-a54b-e3320bbcdc29' AND belong = true;
+# Time: 2024-02-13T02:04:41.657852Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.329236  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789880;
+SELECT department_name FROM department_user_view WHERE user_id = '000805ba-066c-4b98-895b-03bc946b712a' AND belong = true;
+# Time: 2024-02-13T02:04:42.284207Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.401544  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789880;
+SELECT department_name FROM department_user_view WHERE user_id = '0010b7fc-3b6c-46be-b1cc-7052a70c1f3f' AND belong = true;
+# Time: 2024-02-13T02:04:42.409148Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.369928  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789881;
+SELECT department_name FROM department_user_view WHERE user_id = '001cb8d5-2c16-452e-bba4-f5999889231a' AND belong = true;
+# Time: 2024-02-13T02:04:42.409148Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.415569  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789880;
+SELECT department_name FROM department_user_view WHERE user_id = '001b8cf8-f884-4c95-9e03-e050dd4a3ca5' AND belong = true;
+# Time: 2024-02-13T02:04:42.480914Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.431775  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789881;
+SELECT department_name FROM department_user_view WHERE user_id = '0005d168-0615-47a3-b4ac-cbb733cc658e' AND belong = true;
+# Time: 2024-02-13T02:04:42.979748Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.320357  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789881;
+SELECT department_name FROM department_user_view WHERE user_id = '000702e0-0552-49e7-85ee-d649cac4f6a0' AND belong = true;
+# Time: 2024-02-13T02:04:42.993040Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.332856  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789881;
+SELECT department_name FROM department_user_view WHERE user_id = '002cb01d-23cd-46b6-830a-dbe304c71f6f' AND belong = true;
+# Time: 2024-02-13T02:04:43.037989Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.378277  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789881;
+SELECT department_name FROM department_user_view WHERE user_id = '00104579-1198-4980-900f-927175e049f0' AND belong = true;
+# Time: 2024-02-13T02:04:43.789458Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.503714  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789882;
+SELECT department_name FROM department_user_view WHERE user_id = '00059d56-5fa9-4e19-996c-42fd150ceeea' AND belong = true;
+# Time: 2024-02-13T02:04:43.834890Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.424129  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789882;
+SELECT department_name FROM department_user_view WHERE user_id = '001f9b28-65ee-47cb-bedc-7cfdf7f20ca7' AND belong = true;
+# Time: 2024-02-13T02:04:43.865837Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.454766  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789882;
+SELECT department_name FROM department_user_view WHERE user_id = '00515b14-9b89-4915-83db-7653aa7ccfaa' AND belong = true;
+# Time: 2024-02-13T02:04:43.923205Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.440766  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789882;
+SELECT department_name FROM department_user_view WHERE user_id = '00036596-c4b4-413e-b822-a55cbb773c6b' AND belong = true;
+# Time: 2024-02-13T02:04:44.423866Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.442381  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789882;
+SELECT department_name FROM department_user_view WHERE user_id = '00487bd9-a06b-46eb-ae24-3e37b3c0b264' AND belong = true;
+# Time: 2024-02-13T02:04:44.474109Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.479726  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789882;
+SELECT department_name FROM department_user_view WHERE user_id = '0000da41-b00f-4794-81d3-cdb76ea14f71' AND belong = true;
+# Time: 2024-02-13T02:04:44.560524Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.520786  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789883;
+SELECT department_name FROM department_user_view WHERE user_id = '00171989-a253-4496-a6ac-18cd5fd54621' AND belong = true;
+# Time: 2024-02-13T02:04:45.338764Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.502317  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789883;
+SELECT department_name FROM department_user_view WHERE user_id = '00174adb-0b9f-4a55-aa81-0f4b3d83fdd3' AND belong = true;
+# Time: 2024-02-13T02:04:45.345186Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.553884  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789883;
+SELECT department_name FROM department_user_view WHERE user_id = '0023f032-bea2-432e-9369-9479249cd818' AND belong = true;
+# Time: 2024-02-13T02:04:45.437745Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.513046  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789883;
+SELECT department_name FROM department_user_view WHERE user_id = '001320c0-aff2-44ad-bcab-6c0b1085607c' AND belong = true;
+# Time: 2024-02-13T02:04:45.440271Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.572437  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789883;
+SELECT department_name FROM department_user_view WHERE user_id = '00930a49-ca7f-4b7a-8d32-671b37528f74' AND belong = true;
+# Time: 2024-02-13T02:04:46.010720Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.534833  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789884;
+SELECT department_name FROM department_user_view WHERE user_id = '000bec66-ae34-4751-892f-fbae742aa3f5' AND belong = true;
+# Time: 2024-02-13T02:04:46.031696Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.606161  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789884;
+SELECT department_name FROM department_user_view WHERE user_id = '001ab696-728a-4a81-a823-6d7a6b4fcb7d' AND belong = true;
+# Time: 2024-02-13T02:04:46.214486Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.650982  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789884;
+SELECT department_name FROM department_user_view WHERE user_id = '002ee1f4-7a54-414d-8092-7f70335c8fd7' AND belong = true;
+# Time: 2024-02-13T02:04:46.857395Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.511026  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789885;
+SELECT department_name FROM department_user_view WHERE user_id = '001be433-46d7-41cc-b4e5-f4daaa67534c' AND belong = true;
+# Time: 2024-02-13T02:04:46.859790Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.519434  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789885;
+SELECT department_name FROM department_user_view WHERE user_id = '001b291d-6261-4bb3-8929-92854778a62f' AND belong = true;
+# Time: 2024-02-13T02:04:46.954163Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.512640  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789885;
+SELECT department_name FROM department_user_view WHERE user_id = '002edd48-7c3a-4ae5-a8ad-82bcd9c75605' AND belong = true;
+# Time: 2024-02-13T02:04:47.460047Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.447198  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789886;
+SELECT department_name FROM department_user_view WHERE user_id = '00105376-7323-4fb6-9bdc-6983f9ddb4cb' AND belong = true;
+# Time: 2024-02-13T02:04:47.466680Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.432872  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789886;
+SELECT department_name FROM department_user_view WHERE user_id = '0026b2be-69d6-471c-bfd7-75be9aa73fe2' AND belong = true;
+# Time: 2024-02-13T02:04:47.633263Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.416747  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789886;
+SELECT department_name FROM department_user_view WHERE user_id = '00073543-9ace-4e48-b49f-19e6bf65dbed' AND belong = true;
+# Time: 2024-02-13T02:04:48.190702Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.331703  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789886;
+SELECT department_name FROM department_user_view WHERE user_id = '001b92c9-db4e-43b9-9445-3b78e35468a0' AND belong = true;
+# Time: 2024-02-13T02:04:48.192310Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.331618  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789886;
+SELECT department_name FROM department_user_view WHERE user_id = '000d10f2-c27a-4d81-8231-8b28ebdbaa4a' AND belong = true;
+# Time: 2024-02-13T02:04:48.408299Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.452601  Lock_time: 0.000006 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789886;
+SELECT department_name FROM department_user_view WHERE user_id = '0023e918-78fb-4e91-b5d8-5fccbabb07f4' AND belong = true;
+# Time: 2024-02-13T02:04:48.812857Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.345084  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789887;
+SELECT department_name FROM department_user_view WHERE user_id = '00426260-4509-475d-bb35-a4c716b1b554' AND belong = true;
+# Time: 2024-02-13T02:04:48.818223Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.356590  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789887;
+SELECT department_name FROM department_user_view WHERE user_id = '0013d2a2-83ef-4a7b-b062-a391470aab3f' AND belong = true;
+# Time: 2024-02-13T02:04:48.993611Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.358794  Lock_time: 0.000006 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789887;
+SELECT department_name FROM department_user_view WHERE user_id = '00158464-bde4-47fc-8ce8-060ec690acf6' AND belong = true;
+# Time: 2024-02-13T02:04:49.564631Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.371535  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789888;
+SELECT department_name FROM department_user_view WHERE user_id = '0027b925-e13b-4859-94f6-124c8571a418' AND belong = true;
+# Time: 2024-02-13T02:04:49.564644Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.372609  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789888;
+SELECT department_name FROM department_user_view WHERE user_id = '0013d2a2-83ef-4a7b-b062-a391470aab3f' AND belong = true;
+# Time: 2024-02-13T02:04:49.797903Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.388058  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789888;
+SELECT department_name FROM department_user_view WHERE user_id = '004265ad-f866-46ed-94cc-04db071a1815' AND belong = true;
+# Time: 2024-02-13T02:04:50.164745Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.345360  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789888;
+SELECT department_name FROM department_user_view WHERE user_id = '0000cd32-5171-41e1-b065-0d0c86f53983' AND belong = true;
+# Time: 2024-02-13T02:04:50.164759Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    13
+# Query_time: 1.350498  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789888;
+SELECT department_name FROM department_user_view WHERE user_id = '00054b2d-e69d-4bc3-bcb1-88dd96bfb473' AND belong = true;
+# Time: 2024-02-13T02:04:50.403278Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.408195  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789888;
+SELECT department_name FROM department_user_view WHERE user_id = '00054b2d-e69d-4bc3-bcb1-88dd96bfb473' AND belong = true;
+# Time: 2024-02-13T02:04:50.923563Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.357344  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789889;
+SELECT department_name FROM department_user_view WHERE user_id = '002b6891-0874-41f3-978a-5b535688a497' AND belong = true;
+# Time: 2024-02-13T02:04:50.986273Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    16
+# Query_time: 1.419632  Lock_time: 0.000001 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789889;
+SELECT department_name FROM department_user_view WHERE user_id = '00080d6b-1fd4-47f7-92da-1eb3211570e9' AND belong = true;
+# Time: 2024-02-13T02:04:51.191797Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    20
+# Query_time: 1.392483  Lock_time: 0.000003 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789889;
+SELECT department_name FROM department_user_view WHERE user_id = '00035421-30b2-45d6-96b6-2942abc09e1e' AND belong = true;
+# Time: 2024-02-13T02:04:51.504597Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    18
+# Query_time: 1.338241  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789890;
+SELECT department_name FROM department_user_view WHERE user_id = '0000b5e3-08c1-4067-ad46-c0de800e7366' AND belong = true;
+# Time: 2024-02-13T02:04:51.559123Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    14
+# Query_time: 1.392437  Lock_time: 0.000005 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789890;
+SELECT department_name FROM department_user_view WHERE user_id = '000a8583-c090-431a-b60e-ea672ec46d3b' AND belong = true;
+# Time: 2024-02-13T02:04:51.748830Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    17
+# Query_time: 1.343997  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789890;
+SELECT department_name FROM department_user_view WHERE user_id = '000a8583-c090-431a-b60e-ea672ec46d3b' AND belong = true;
+# Time: 2024-02-13T02:04:52.232396Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    12
+# Query_time: 1.307282  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789890;
+SELECT department_name FROM department_user_view WHERE user_id = '00276285-fbb9-4c01-9a56-9ae3ad3b4480' AND belong = true;
+# Time: 2024-02-13T02:04:52.312287Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    19
+# Query_time: 1.324177  Lock_time: 0.000004 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789890;
+SELECT department_name FROM department_user_view WHERE user_id = '00155478-fd74-430c-a8b2-dd9c7af06db6' AND belong = true;
+# Time: 2024-02-13T02:04:52.791485Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    15
+# Query_time: 1.285321  Lock_time: 0.000002 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789891;
+SELECT department_name FROM department_user_view WHERE user_id = '000f3216-6c80-4964-af50-9727c8fde9b2' AND belong = true;
+# Time: 2024-02-13T02:04:53.022185Z
+# User@Host: mysql[mysql] @  [172.19.0.5]  Id:    21
+# Query_time: 1.270767  Lock_time: 0.000016 Rows_sent: 1  Rows_examined: 3444738
+SET timestamp=1707789891;
+SELECT department_name FROM department_user_view WHERE user_id = '0035005d-a83a-4edc-8301-554f28b2f417' AND belong = true;

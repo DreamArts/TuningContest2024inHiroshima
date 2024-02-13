@@ -240,7 +240,7 @@ matchGroupRouter.get(
         offset = 0;
       }
 
-      const matchGroupIds = await getMatchGroupIdsByUserId(user.userId);
+      const matchGroupIds = await getMatchGroupIdsByUserId(user.userId,limit,offset);
       console.log(`user participated in ${matchGroupIds.length} match groups`);
       if (matchGroupIds.length === 0) {
         res.json([]);
