@@ -34,7 +34,7 @@ then
      --user $UID \
      k6 run --out json=/logs/${FILE_NAME}.json -e BASE_URL=${BASE_URL} /k6/dist/loadTest.js
 else
-    docker run -it --rm \
+    docker run -it --rm --add-host=host.docker.internal:host-gateway \
      -v $(pwd)/logs:/logs \
      --user $UID \
      k6 run --out json=/logs/${FILE_NAME}.json -e BASE_URL=${BASE_URL} /k6/dist/loadTest.js
