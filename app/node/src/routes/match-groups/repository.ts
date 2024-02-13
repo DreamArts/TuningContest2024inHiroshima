@@ -88,11 +88,13 @@ export const getMatchGroupDetailByMatchGroupId = async (
 };
 
 export const getMatchGroupIdsByUserId = async (
-  userId: string
+  userId: string,
+  limit: number,
+  offset: number
 ): Promise<string[]> => {
   const [matchGroupIds] = await pool.query<RowDataPacket[]>(
-    "SELECT match_group_id FROM match_group_member WHERE user_id = ?",
-    [userId]
+    "SELECT match_group_id FROM match_group_member WHERE user_id = ? LIMIT ? OFFSET ?",
+    [userId,limit,offset]
   );
   return matchGroupIds.map((row) => row.match_group_id);
 };
